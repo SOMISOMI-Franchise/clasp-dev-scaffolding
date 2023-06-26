@@ -18,3 +18,5 @@ curl https://raw.githubusercontent.com/SOMISOMI-Franchise/clasp-dev-scaffolding/
 npx clasp clone {YOUR-GOOGLE-APPS-SCRIPT-PROJECT-ID-GOES-HERE} --rootDir src
 ```
 
+### Shamelessly ripped from...
+[Some dude who answered on Google Forums](https://groups.google.com/g/google-apps-script-community/c/YX77FgKRoZk?pli=1)
