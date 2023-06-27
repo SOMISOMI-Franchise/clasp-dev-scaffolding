@@ -11,9 +11,9 @@ npm init -y
 
 npm i -D @google/clasp @types/google-apps-script eslint eslint-config-google eslint-config-prettier eslint-plugin-googleappsscript eslint-plugin-prettier prettier
 
-curl https://raw.githubusercontent.com/SOMISOMI-Franchise/clasp-dev-scaffolding/main/.eslintrc.json?token=GHSAT0AAAAAACDRGSHQ5FXSF7UTSVC6M5JAZE2ALGA --output .eslintrc.json
+curl https://raw.githubusercontent.com/SOMISOMI-Franchise/clasp-dev-scaffolding/main/.eslintrc.json --output .eslintrc.json
 
-curl https://raw.githubusercontent.com/SOMISOMI-Franchise/clasp-dev-scaffolding/main/.prettierrc?token=GHSAT0AAAAAACDRGSHRHZUPY7FD2GVSZEECZE2AKWA --output .prettierrc
+curl https://raw.githubusercontent.com/SOMISOMI-Franchise/clasp-dev-scaffolding/main/.prettierrc --output .prettierrc
 
 npx clasp clone {YOUR-GOOGLE-APPS-SCRIPT-PROJECT-ID-GOES-HERE} --rootDir src
 ```
