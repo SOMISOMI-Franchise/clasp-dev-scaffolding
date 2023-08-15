@@ -1,10 +1,6 @@
 {
-  "extends": [
-    "plugin:prettier/recommended"
-  ],
-  "plugins": [
-    "googleappsscript"
-  ],
+  "extends": ["plugin:prettier/recommended"],
+  "plugins": ["googleappsscript"],
   "env": {
     "googleappsscript/googleappsscript": true,
     "browser": true,
@@ -20,7 +16,7 @@
       {
         "code": 100,
         "tabWidth": 2,
-        "comments": 160,
+        "comments": 100,
         "ignoreComments": false,
         "ignoreTrailingComments": true,
         "ignoreUrls": true,
@@ -31,7 +27,7 @@
     ]
   },
   "parserOptions": {
-    "ecmaVersion": 9,
+    "ecmaVersion": 2020,
     "sourceType": "module"
   }
 }
